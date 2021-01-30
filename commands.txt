@@ -8,3 +8,12 @@ git commit --amend:merging one commit with another after modifying
 git status
 git checkout -- <filename> : will unmodify the previous contents
 git checkout -f 
+
+*working with repositories
+
+1)create a new rep
+2)create remote in your gitbash: refer from github while making rep
+3)create ssh key in order to get access to the rep you have created from gitbash
+4) git push -u origin master 
+
+*creating aliases: git config --global alias.st 'status'
