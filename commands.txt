@@ -1,0 +1,8 @@
+git log : shows all the commit 
+git log -p :shows the commits with and the corresponding changes
+git log -p -n:shows n commits 
+git log --pretty=short : brief info about commit
+git log --pretty=long : some more info
+git log --since=2.days : shows all the commits of previous 2 days
+git commit --amend:merging one commit with another after modifying	
+git status 
