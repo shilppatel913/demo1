@@ -5,4 +5,6 @@ git log --pretty=short : brief info about commit
 git log --pretty=long : some more info
 git log --since=2.days : shows all the commits of previous 2 days
 git commit --amend:merging one commit with another after modifying	
-git status 
+git status
+git checkout -- <filename> : will unmodify the previous contents
+git checkout -f 
