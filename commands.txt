@@ -17,3 +17,14 @@ git checkout -f
 4) git push -u origin master 
 
 *creating aliases: git config --global alias.st 'status'
+
+creating a branch other than master branch:
+git checkout -b branchname
+
+to switch branches:
+git checkout branchname(should exist)
+
+to merge branches:
+git merge branchname
+
+solving merge conflict:
