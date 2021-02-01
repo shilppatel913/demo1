@@ -28,3 +28,23 @@ to merge branches:
 git merge branchname
 
 solving merge conflict:
+vs code gives you an option to choose which modificatons you want
+
+to show merged branches:
+git branch --merged
+ 
+ for non merged branches:
+ git branch --no-merged
+
+
+ to add a remote:
+ git remote remotename
+
+ to push files on github:
+ git push -u remotename master
+
+ to add branch on github:
+ git push -u origin1 branchname
+
+ to delete a branch on github:
+ git push -d origin1 branchname
