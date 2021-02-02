@@ -9,7 +9,7 @@ git status
 git checkout -- <filename> : will unmodify the previous contents
 git checkout -f 
 
-*working with repositories
+*working with repositories:
 
 1)create a new rep
 2)create remote in your gitbash: refer from github while making rep
@@ -26,6 +26,8 @@ git checkout branchname(should exist)
 
 to merge branches:
 git merge branchname
+
+
 
 solving merge conflict:
 vs code gives you an option to choose which modificatons you want
